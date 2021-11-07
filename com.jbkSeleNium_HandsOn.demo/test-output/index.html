@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\ABC\Desktop\seleniumFramework\com.jbkSeleNium_HandsOn.demo\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">25 methods,   25 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk_Test.UserPageTest" hash-for-method="checkAddUserTest">checkAddUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk_Test.DashboardPageTest" hash-for-method="checkCoursesNamesTest">checkCoursesNamesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk_Test.DashboardPageTest" hash-for-method="checkCoursestextTest">checkCoursestextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk_Test.DashboardPageTest" hash-for-method="checkDashboardCourseFooterTest">checkDashboardCourseFooterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk_Test.DashboardPageTest" hash-for-method="checkDashboardFooter1Test">checkDashboardFooter1Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk_Test.UserPageTest" hash-for-method="checkDashboardFooter1Test">checkDashboardFooter1Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk_Test.UserPageTest" hash-for-method="checkDashboardFooter2Test">checkDashboardFooter2Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk_Test.DashboardPageTest" hash-for-method="checkDashboardFooter2Test">checkDashboardFooter2Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk_Test.LogInPageTest" hash-for-method="checkFooterTest">checkFooterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk_Test.UsefulLinkPageTest" hash-for-method="checkLinksContentTest">checkLinksContentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk_Test.UsefulLinkPageTest" hash-for-method="checkPageHeaderTest">checkPageHeaderTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk_Test.UsefulLinkPageTest" hash-for-method="checkPageTitleTest">checkPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk_Test.OperatorPageTest" hash-for-method="checkPageTitleTest">checkPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk_Test.DownloadPageTest" hash-for-method="checkPageTitleTest">checkPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk_Test.LogoutPageTest" hash-for-method="checkPageURLTest">checkPageURLTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk_Test.OperatorPageTest" hash-for-method="checkPageURLTest">checkPageURLTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk_Test.DownloadPageTest" hash-for-method="checkPageURLTest">checkPageURLTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk_Test.UsefulLinkPageTest" hash-for-method="checkPageURLTest">checkPageURLTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk_Test.OperatorPageTest" hash-for-method="checkPersonContactListTest">checkPersonContactListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk_Test.OperatorPageTest" hash-for-method="checkPersonNamesTest">checkPersonNamesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk_Test.DashboardPageTest" hash-for-method="checkTitle">checkTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk_Test.UserPageTest" hash-for-method="checkUserListTest">checkUserListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk_Test.LogInPageTest" hash-for-method="logoDisplayTest">logoDisplayTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk_Test.LogInPageTest" hash-for-method="verifyTitleHeadingTest">verifyTitleHeadingTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.jbk_Test.LogInPageTest" hash-for-method="verifyTitleTest">verifyTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jbk_Test.UsefulLinkPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLinksContentTest">
+                  </a> <!-- checkLinksContentTest -->
+                  <span class="method-name">checkLinksContentTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPageHeaderTest">
+                  </a> <!-- checkPageHeaderTest -->
+                  <span class="method-name">checkPageHeaderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPageTitleTest">
+                  </a> <!-- checkPageTitleTest -->
+                  <span class="method-name">checkPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPageURLTest">
+                  </a> <!-- checkPageURLTest -->
+                  <span class="method-name">checkPageURLTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jbk_Test.DownloadPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPageTitleTest">
+                  </a> <!-- checkPageTitleTest -->
+                  <span class="method-name">checkPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPageURLTest">
+                  </a> <!-- checkPageURLTest -->
+                  <span class="method-name">checkPageURLTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jbk_Test.UserPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkAddUserTest">
+                  </a> <!-- checkAddUserTest -->
+                  <span class="method-name">checkAddUserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDashboardFooter1Test">
+                  </a> <!-- checkDashboardFooter1Test -->
+                  <span class="method-name">checkDashboardFooter1Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDashboardFooter2Test">
+                  </a> <!-- checkDashboardFooter2Test -->
+                  <span class="method-name">checkDashboardFooter2Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkUserListTest">
+                  </a> <!-- checkUserListTest -->
+                  <span class="method-name">checkUserListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jbk_Test.DashboardPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCoursesNamesTest">
+                  </a> <!-- checkCoursesNamesTest -->
+                  <span class="method-name">checkCoursesNamesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCoursestextTest">
+                  </a> <!-- checkCoursestextTest -->
+                  <span class="method-name">checkCoursestextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDashboardCourseFooterTest">
+                  </a> <!-- checkDashboardCourseFooterTest -->
+                  <span class="method-name">checkDashboardCourseFooterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDashboardFooter1Test">
+                  </a> <!-- checkDashboardFooter1Test -->
+                  <span class="method-name">checkDashboardFooter1Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkDashboardFooter2Test">
+                  </a> <!-- checkDashboardFooter2Test -->
+                  <span class="method-name">checkDashboardFooter2Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTitle">
+                  </a> <!-- checkTitle -->
+                  <span class="method-name">checkTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jbk_Test.LogoutPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPageURLTest">
+                  </a> <!-- checkPageURLTest -->
+                  <span class="method-name">checkPageURLTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jbk_Test.LogInPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkFooterTest">
+                  </a> <!-- checkFooterTest -->
+                  <span class="method-name">checkFooterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoDisplayTest">
+                  </a> <!-- logoDisplayTest -->
+                  <span class="method-name">logoDisplayTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitleHeadingTest">
+                  </a> <!-- verifyTitleHeadingTest -->
+                  <span class="method-name">verifyTitleHeadingTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitleTest">
+                  </a> <!-- verifyTitleTest -->
+                  <span class="method-name">verifyTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jbk_Test.OperatorPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPageTitleTest">
+                  </a> <!-- checkPageTitleTest -->
+                  <span class="method-name">checkPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPageURLTest">
+                  </a> <!-- checkPageURLTest -->
+                  <span class="method-name">checkPageURLTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPersonContactListTest">
+                  </a> <!-- checkPersonContactListTest -->
+                  <span class="method-name">checkPersonContactListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPersonNamesTest">
+                  </a> <!-- checkPersonNamesTest -->
+                  <span class="method-name">checkPersonNamesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ABC\Desktop\seleniumFramework\com.jbkSeleNium_HandsOn.demo\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot; parallel=&quot;classes&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.listeners.ListenersEx&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;6&quot; name=&quot;Test&quot; parallel=&quot;classes&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.jbk_Test.LogoutPageTest&quot;/&gt;
+      &lt;class name=&quot;com.jbk_Test.DashboardPageTest&quot;/&gt;
+      &lt;class name=&quot;com.jbk_Test.LogInPageTest&quot;/&gt;
+      &lt;class name=&quot;com.jbk_Test.UsefulLinkPageTest&quot;/&gt;
+      &lt;class name=&quot;com.jbk_Test.UserPageTest&quot;/&gt;
+      &lt;class name=&quot;com.jbk_Test.OperatorPageTest&quot;/&gt;
+      &lt;class name=&quot;com.jbk_Test.DownloadPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(25);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkLinksContentTest')
+data.setCell(0, 2, 'com.jbk_Test.UsefulLinkPageTest')
+data.setCell(0, 3, 15096);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkPersonContactListTest')
+data.setCell(1, 2, 'com.jbk_Test.OperatorPageTest')
+data.setCell(1, 3, 15021);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkCoursesNamesTest')
+data.setCell(2, 2, 'com.jbk_Test.DashboardPageTest')
+data.setCell(2, 3, 14970);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'logoDisplayTest')
+data.setCell(3, 2, 'com.jbk_Test.LogInPageTest')
+data.setCell(3, 3, 591);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkFooterTest')
+data.setCell(4, 2, 'com.jbk_Test.LogInPageTest')
+data.setCell(4, 3, 293);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkCoursestextTest')
+data.setCell(5, 2, 'com.jbk_Test.DashboardPageTest')
+data.setCell(5, 3, 246);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkPersonNamesTest')
+data.setCell(6, 2, 'com.jbk_Test.OperatorPageTest')
+data.setCell(6, 3, 228);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkPageURLTest')
+data.setCell(7, 2, 'com.jbk_Test.LogoutPageTest')
+data.setCell(7, 3, 223);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkPageTitleTest')
+data.setCell(8, 2, 'com.jbk_Test.OperatorPageTest')
+data.setCell(8, 3, 223);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkPageTitleTest')
+data.setCell(9, 2, 'com.jbk_Test.DownloadPageTest')
+data.setCell(9, 3, 223);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkTitle')
+data.setCell(10, 2, 'com.jbk_Test.DashboardPageTest')
+data.setCell(10, 3, 223);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'checkPageURLTest')
+data.setCell(11, 2, 'com.jbk_Test.DownloadPageTest')
+data.setCell(11, 3, 144);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkAddUserTest')
+data.setCell(12, 2, 'com.jbk_Test.UserPageTest')
+data.setCell(12, 3, 131);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checkDashboardFooter1Test')
+data.setCell(13, 2, 'com.jbk_Test.DashboardPageTest')
+data.setCell(13, 3, 84);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'checkPageHeaderTest')
+data.setCell(14, 2, 'com.jbk_Test.UsefulLinkPageTest')
+data.setCell(14, 3, 83);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkDashboardFooter1Test')
+data.setCell(15, 2, 'com.jbk_Test.UserPageTest')
+data.setCell(15, 3, 73);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyTitleHeadingTest')
+data.setCell(16, 2, 'com.jbk_Test.LogInPageTest')
+data.setCell(16, 3, 73);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkDashboardFooter2Test')
+data.setCell(17, 2, 'com.jbk_Test.UserPageTest')
+data.setCell(17, 3, 68);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'checkUserListTest')
+data.setCell(18, 2, 'com.jbk_Test.UserPageTest')
+data.setCell(18, 3, 67);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'checkPageURLTest')
+data.setCell(19, 2, 'com.jbk_Test.OperatorPageTest')
+data.setCell(19, 3, 63);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'checkDashboardFooter2Test')
+data.setCell(20, 2, 'com.jbk_Test.DashboardPageTest')
+data.setCell(20, 3, 62);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'checkDashboardCourseFooterTest')
+data.setCell(21, 2, 'com.jbk_Test.DashboardPageTest')
+data.setCell(21, 3, 59);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyTitleTest')
+data.setCell(22, 2, 'com.jbk_Test.LogInPageTest')
+data.setCell(22, 3, 27);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'checkPageTitleTest')
+data.setCell(23, 2, 'com.jbk_Test.UsefulLinkPageTest')
+data.setCell(23, 3, 18);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'checkPageURLTest')
+data.setCell(24, 2, 'com.jbk_Test.UsefulLinkPageTest')
+data.setCell(24, 3, 14);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 48 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.DashboardPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUpTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.DownloadPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14268 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.LogInPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">23457 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.LogoutPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">34449 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.OperatorPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUpTest</span>
+                <span class="method-start">48538 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.UsefulLinkPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">63988 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.UserPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setup</span>
+                <span class="method-start">81389 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.LogoutPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkPageURLTest</span>
+                <span class="method-start">103378 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.OperatorPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkPageTitleTest</span>
+                <span class="method-start">103378 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.UsefulLinkPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkLinksContentTest</span>
+                <span class="method-start">103378 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.DownloadPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkPageTitleTest</span>
+                <span class="method-start">103378 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.DashboardPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkTitle</span>
+                <span class="method-start">103378 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.LogInPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkFooterTest</span>
+                <span class="method-start">103378 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.DashboardPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkCoursesNamesTest</span>
+                <span class="method-start">103698 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.DownloadPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkPageURLTest</span>
+                <span class="method-start">103698 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.OperatorPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkPageURLTest</span>
+                <span class="method-start">103700 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.LogInPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logoDisplayTest</span>
+                <span class="method-start">103700 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.UserPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkAddUserTest</span>
+                <span class="method-start">103703 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.OperatorPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkPersonContactListTest</span>
+                <span class="method-start">103767 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.UserPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkUserListTest</span>
+                <span class="method-start">103837 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.DownloadPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">103845 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.UserPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkDashboardFooter1Test</span>
+                <span class="method-start">103906 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkDashboardFooter2Test</span>
+                <span class="method-start">103982 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.LogInPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyTitleTest</span>
+                <span class="method-start">104297 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTitleHeadingTest</span>
+                <span class="method-start">104328 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.UsefulLinkPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkPageHeaderTest</span>
+                <span class="method-start">118481 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkPageTitleTest</span>
+                <span class="method-start">118566 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkPageURLTest</span>
+                <span class="method-start">118586 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.DashboardPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkCoursestextTest</span>
+                <span class="method-start">118670 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.OperatorPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkPersonNamesTest</span>
+                <span class="method-start">118791 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.DashboardPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkDashboardCourseFooterTest</span>
+                <span class="method-start">118919 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkDashboardFooter1Test</span>
+                <span class="method-start">118980 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkDashboardFooter2Test</span>
+                <span class="method-start">119067 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownTest</span>
+                <span class="method-start">119131 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.LogInPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">121589 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.LogoutPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">123517 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.OperatorPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">125382 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbk_Test.UserPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">125694 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

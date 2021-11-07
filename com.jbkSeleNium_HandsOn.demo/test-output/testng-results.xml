@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="25" passed="25">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17845" started-at="2021-10-29T23:53:22 IST" finished-at="2021-10-29T23:53:40 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17845" started-at="2021-10-29T23:53:22 IST" finished-at="2021-10-29T23:53:40 IST">
+      <class name="com.jbk_Test.DashboardPageTest">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.jbk_Test.DashboardPageTest@5185bd]" name="setUpTest" is-config="true" duration-ms="14267" started-at="2021-10-29T23:51:39 IST" finished-at="2021-10-29T23:51:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="checkTitle()[pri:1, instance:com.jbk_Test.DashboardPageTest@5185bd]" name="checkTitle" duration-ms="223" started-at="2021-10-29T23:53:22 IST" finished-at="2021-10-29T23:53:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="checkCoursesNamesTest()[pri:2, instance:com.jbk_Test.DashboardPageTest@5185bd]" name="checkCoursesNamesTest" duration-ms="14970" started-at="2021-10-29T23:53:23 IST" finished-at="2021-10-29T23:53:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCoursesNamesTest -->
+        <test-method status="PASS" signature="checkCoursestextTest()[pri:2, instance:com.jbk_Test.DashboardPageTest@5185bd]" name="checkCoursestextTest" duration-ms="246" started-at="2021-10-29T23:53:38 IST" finished-at="2021-10-29T23:53:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCoursestextTest -->
+        <test-method status="PASS" signature="checkDashboardCourseFooterTest()[pri:3, instance:com.jbk_Test.DashboardPageTest@5185bd]" name="checkDashboardCourseFooterTest" duration-ms="59" started-at="2021-10-29T23:53:38 IST" finished-at="2021-10-29T23:53:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDashboardCourseFooterTest -->
+        <test-method status="PASS" signature="checkDashboardFooter1Test()[pri:4, instance:com.jbk_Test.DashboardPageTest@5185bd]" name="checkDashboardFooter1Test" duration-ms="84" started-at="2021-10-29T23:53:38 IST" finished-at="2021-10-29T23:53:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDashboardFooter1Test -->
+        <test-method status="PASS" signature="checkDashboardFooter2Test()[pri:4, instance:com.jbk_Test.DashboardPageTest@5185bd]" name="checkDashboardFooter2Test" duration-ms="62" started-at="2021-10-29T23:53:38 IST" finished-at="2021-10-29T23:53:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDashboardFooter2Test -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.jbk_Test.DashboardPageTest@5185bd]" name="tearDownTest" is-config="true" duration-ms="1739" started-at="2021-10-29T23:53:38 IST" finished-at="2021-10-29T23:53:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.jbk_Test.DashboardPageTest -->
+      <class name="com.jbk_Test.UsefulLinkPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jbk_Test.UsefulLinkPageTest@607a4f]" name="setUp" is-config="true" duration-ms="17401" started-at="2021-10-29T23:52:43 IST" finished-at="2021-10-29T23:53:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkLinksContentTest()[pri:0, instance:com.jbk_Test.UsefulLinkPageTest@607a4f]" name="checkLinksContentTest" duration-ms="15096" started-at="2021-10-29T23:53:22 IST" finished-at="2021-10-29T23:53:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLinksContentTest -->
+        <test-method status="PASS" signature="checkPageHeaderTest()[pri:0, instance:com.jbk_Test.UsefulLinkPageTest@607a4f]" name="checkPageHeaderTest" duration-ms="83" started-at="2021-10-29T23:53:38 IST" finished-at="2021-10-29T23:53:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageHeaderTest -->
+        <test-method status="PASS" signature="checkPageTitleTest()[pri:0, instance:com.jbk_Test.UsefulLinkPageTest@607a4f]" name="checkPageTitleTest" duration-ms="18" started-at="2021-10-29T23:53:38 IST" finished-at="2021-10-29T23:53:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitleTest -->
+        <test-method status="PASS" signature="checkPageURLTest()[pri:0, instance:com.jbk_Test.UsefulLinkPageTest@607a4f]" name="checkPageURLTest" duration-ms="14" started-at="2021-10-29T23:53:38 IST" finished-at="2021-10-29T23:53:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageURLTest -->
+      </class> <!-- com.jbk_Test.UsefulLinkPageTest -->
+      <class name="com.jbk_Test.UserPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jbk_Test.UserPageTest@2663d3]" name="setup" is-config="true" duration-ms="21637" started-at="2021-10-29T23:53:00 IST" finished-at="2021-10-29T23:53:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkAddUserTest()[pri:2, instance:com.jbk_Test.UserPageTest@2663d3]" name="checkAddUserTest" duration-ms="131" started-at="2021-10-29T23:53:23 IST" finished-at="2021-10-29T23:53:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAddUserTest -->
+        <test-method status="PASS" signature="checkUserListTest()[pri:3, instance:com.jbk_Test.UserPageTest@2663d3]" name="checkUserListTest" duration-ms="67" started-at="2021-10-29T23:53:23 IST" finished-at="2021-10-29T23:53:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUserListTest -->
+        <test-method status="PASS" signature="checkDashboardFooter1Test()[pri:4, instance:com.jbk_Test.UserPageTest@2663d3]" name="checkDashboardFooter1Test" duration-ms="73" started-at="2021-10-29T23:53:23 IST" finished-at="2021-10-29T23:53:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDashboardFooter1Test -->
+        <test-method status="PASS" signature="checkDashboardFooter2Test()[pri:5, instance:com.jbk_Test.UserPageTest@2663d3]" name="checkDashboardFooter2Test" duration-ms="68" started-at="2021-10-29T23:53:23 IST" finished-at="2021-10-29T23:53:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDashboardFooter2Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jbk_Test.UserPageTest@2663d3]" name="tearDown" is-config="true" duration-ms="667" started-at="2021-10-29T23:53:45 IST" finished-at="2021-10-29T23:53:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.jbk_Test.UserPageTest -->
+      <class name="com.jbk_Test.DownloadPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jbk_Test.DownloadPageTest@485a47]" name="setUp" is-config="true" duration-ms="9189" started-at="2021-10-29T23:51:53 IST" finished-at="2021-10-29T23:52:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkPageTitleTest()[pri:1, instance:com.jbk_Test.DownloadPageTest@485a47]" name="checkPageTitleTest" duration-ms="223" started-at="2021-10-29T23:53:22 IST" finished-at="2021-10-29T23:53:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitleTest -->
+        <test-method status="PASS" signature="checkPageURLTest()[pri:2, instance:com.jbk_Test.DownloadPageTest@485a47]" name="checkPageURLTest" duration-ms="144" started-at="2021-10-29T23:53:23 IST" finished-at="2021-10-29T23:53:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageURLTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jbk_Test.DownloadPageTest@485a47]" name="tearDown" is-config="true" duration-ms="4625" started-at="2021-10-29T23:53:23 IST" finished-at="2021-10-29T23:53:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.jbk_Test.DownloadPageTest -->
+      <class name="com.jbk_Test.OperatorPageTest">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.jbk_Test.OperatorPageTest@190a65e]" name="setUpTest" is-config="true" duration-ms="15450" started-at="2021-10-29T23:52:28 IST" finished-at="2021-10-29T23:52:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="checkPageTitleTest()[pri:0, instance:com.jbk_Test.OperatorPageTest@190a65e]" name="checkPageTitleTest" duration-ms="223" started-at="2021-10-29T23:53:22 IST" finished-at="2021-10-29T23:53:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageTitleTest -->
+        <test-method status="PASS" signature="checkPageURLTest()[pri:0, instance:com.jbk_Test.OperatorPageTest@190a65e]" name="checkPageURLTest" duration-ms="63" started-at="2021-10-29T23:53:23 IST" finished-at="2021-10-29T23:53:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageURLTest -->
+        <test-method status="PASS" signature="checkPersonContactListTest()[pri:0, instance:com.jbk_Test.OperatorPageTest@190a65e]" name="checkPersonContactListTest" duration-ms="15021" started-at="2021-10-29T23:53:23 IST" finished-at="2021-10-29T23:53:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPersonContactListTest -->
+        <test-method status="PASS" signature="checkPersonNamesTest()[pri:0, instance:com.jbk_Test.OperatorPageTest@190a65e]" name="checkPersonNamesTest" duration-ms="228" started-at="2021-10-29T23:53:38 IST" finished-at="2021-10-29T23:53:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPersonNamesTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jbk_Test.OperatorPageTest@190a65e]" name="tearDown" is-config="true" duration-ms="312" started-at="2021-10-29T23:53:44 IST" finished-at="2021-10-29T23:53:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.jbk_Test.OperatorPageTest -->
+      <class name="com.jbk_Test.LogoutPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jbk_Test.LogoutPageTest@91771e]" name="setUp" is-config="true" duration-ms="14089" started-at="2021-10-29T23:52:14 IST" finished-at="2021-10-29T23:52:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkPageURLTest()[pri:0, instance:com.jbk_Test.LogoutPageTest@91771e]" name="checkPageURLTest" duration-ms="223" started-at="2021-10-29T23:53:22 IST" finished-at="2021-10-29T23:53:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPageURLTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jbk_Test.LogoutPageTest@91771e]" name="tearDown" is-config="true" duration-ms="1865" started-at="2021-10-29T23:53:43 IST" finished-at="2021-10-29T23:53:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.jbk_Test.LogoutPageTest -->
+      <class name="com.jbk_Test.LogInPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jbk_Test.LogInPageTest@1b64261]" name="setUp" is-config="true" duration-ms="10992" started-at="2021-10-29T23:52:03 IST" finished-at="2021-10-29T23:52:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkFooterTest()[pri:0, instance:com.jbk_Test.LogInPageTest@1b64261]" name="checkFooterTest" duration-ms="293" started-at="2021-10-29T23:53:22 IST" finished-at="2021-10-29T23:53:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFooterTest -->
+        <test-method status="PASS" signature="logoDisplayTest()[pri:0, instance:com.jbk_Test.LogInPageTest@1b64261]" name="logoDisplayTest" duration-ms="591" started-at="2021-10-29T23:53:23 IST" finished-at="2021-10-29T23:53:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoDisplayTest -->
+        <test-method status="PASS" signature="verifyTitleTest()[pri:1, instance:com.jbk_Test.LogInPageTest@1b64261]" name="verifyTitleTest" duration-ms="27" started-at="2021-10-29T23:53:23 IST" finished-at="2021-10-29T23:53:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest -->
+        <test-method status="PASS" signature="verifyTitleHeadingTest()[pri:2, instance:com.jbk_Test.LogInPageTest@1b64261]" name="verifyTitleHeadingTest" duration-ms="73" started-at="2021-10-29T23:53:23 IST" finished-at="2021-10-29T23:53:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleHeadingTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jbk_Test.LogInPageTest@1b64261]" name="tearDown" is-config="true" duration-ms="1928" started-at="2021-10-29T23:53:41 IST" finished-at="2021-10-29T23:53:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.jbk_Test.LogInPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

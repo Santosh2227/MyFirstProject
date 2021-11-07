@@ -1,0 +1,203 @@
+[RemoteTestNG] detected TestNG version 7.4.0
+Oct 29, 2021 11:46:16 AM com.testbase.TestBase readproperty
+INFO:  Reading Property From Propert File 
+Oct 29, 2021 11:46:16 AM com.testbase.TestBase readproperty
+INFO:  value Found In The Property File For :browser
+Oct 29, 2021 11:46:16 AM com.testbase.TestBase initialization
+INFO:  Initializing Browser With Name chrome
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 10366
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 29, 2021 11:46:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 29, 2021 11:46:19 AM com.testbase.TestBase initialization
+INFO:  Chromedriver initializes
+Oct 29, 2021 11:46:27 AM com.testbase.TestBase readproperty
+INFO:  Reading Property From Propert File 
+Oct 29, 2021 11:46:27 AM com.testbase.TestBase readproperty
+INFO:  value Found In The Property File For :browser
+Oct 29, 2021 11:46:27 AM com.testbase.TestBase initialization
+INFO:  Initializing Browser With Name chrome
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 11454
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 29, 2021 11:46:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 29, 2021 11:46:30 AM com.testbase.TestBase initialization
+INFO:  Chromedriver initializes
+Oct 29, 2021 11:46:39 AM com.testbase.TestBase readproperty
+INFO:  Reading Property From Propert File 
+Oct 29, 2021 11:46:39 AM com.testbase.TestBase readproperty
+INFO:  value Found In The Property File For :browser
+Oct 29, 2021 11:46:39 AM com.testbase.TestBase initialization
+INFO:  Initializing Browser With Name chrome
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 47279
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 29, 2021 11:46:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 29, 2021 11:46:44 AM com.testbase.TestBase initialization
+INFO:  Chromedriver initializes
+Oct 29, 2021 11:46:50 AM com.testbase.TestBase readproperty
+INFO:  Reading Property From Propert File 
+Oct 29, 2021 11:46:50 AM com.testbase.TestBase readproperty
+INFO:  value Found In The Property File For :browser
+Oct 29, 2021 11:46:50 AM com.testbase.TestBase initialization
+INFO:  Initializing Browser With Name chrome
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 17208
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 29, 2021 11:46:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 29, 2021 11:46:54 AM com.testbase.TestBase initialization
+INFO:  Chromedriver initializes
+Oct 29, 2021 11:47:12 AM com.testbase.TestBase readproperty
+INFO:  Reading Property From Propert File 
+Oct 29, 2021 11:47:12 AM com.testbase.TestBase readproperty
+INFO:  value Found In The Property File For :browser
+Oct 29, 2021 11:47:12 AM com.testbase.TestBase initialization
+INFO:  Initializing Browser With Name chrome
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 26530
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 29, 2021 11:47:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 29, 2021 11:47:20 AM com.testbase.TestBase initialization
+INFO:  Chromedriver initializes
+Oct 29, 2021 11:47:32 AM com.testbase.TestBase readproperty
+INFO:  Reading Property From Propert File 
+Oct 29, 2021 11:47:32 AM com.testbase.TestBase readproperty
+INFO:  value Found In The Property File For :browser
+Oct 29, 2021 11:47:32 AM com.testbase.TestBase initialization
+INFO:  Initializing Browser With Name chrome
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 34902
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 29, 2021 11:47:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 29, 2021 11:47:40 AM com.testbase.TestBase initialization
+INFO:  Chromedriver initializes
+Oct 29, 2021 11:47:53 AM com.testbase.TestBase readproperty
+INFO:  Reading Property From Propert File 
+Oct 29, 2021 11:47:53 AM com.testbase.TestBase readproperty
+INFO:  value Found In The Property File For :browser
+Oct 29, 2021 11:47:53 AM com.testbase.TestBase initialization
+INFO:  Initializing Browser With Name chrome
+Starting ChromeDriver 94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}) on port 27901
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 29, 2021 11:48:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 29, 2021 11:48:02 AM com.testbase.TestBase initialization
+INFO:  Chromedriver initializes
+ Actual.. TitleText is   :JavaByKiran | Operators
+ Expected TitleText is :JavaByKiran | Operators
+ Title Is Matched
+---------------------------------
+ Actual.. TitleText is   :JavaByKiran | Downloads
+ Expected TitleText is :JavaByKiran | Downloads
+ Title Is Matched
+---------------------------------
+ Actual.. TitleText is   :JavaByKiran | Dashboard
+ Expected TitleText is :JavaByKiran | Dashboard
+ Title Is Matched
+---------------------------------
+ Actual.. TitleText is   :file:///C:/SELENIUM/Offline%20Website/Offline%20Website/pages/examples/logout.html
+ Expected TitleText is :file:///C:/SELENIUM/Offline%20Website/Offline%20Website/pages/examples/logout.html
+ Title Is Matched
+---------------------------------
+ Actual.. TitleText is   :file:///C:/SELENIUM/Offline%20Website/Offline%20Website/pages/examples/operators.html
+ Expected TitleText is :file:///C:/SELENIUM/Offline%20Website/Offline%20Website/pages/examples/operators.html
+ Title Is Matched
+---------------------------------
+ Actual.. TitleText is   :file:///C:/SELENIUM/Offline%20Website/Offline%20Website/pages/examples/downloads.html
+ Expected TitleText is :file:///C:/SELENIUM/Offline%20Website/Offline%20Website/pages/examples/downloads.html
+ Title Is Matched
+---------------------------------
+ Actual.. TitleText is   :Add User
+ Expected TitleText is :Add User
+ Title Is Matched
+---------------------------------
+ Actual.. TitleText is   :Register a new membership
+ Expected TitleText is :Register a new membership
+ Title Is Matched
+---------------------------------
+ Actual.. TitleText is   :User List
+ Expected TitleText is :User List
+ Title Is Matched
+---------------------------------
+ Actual.. TitleText is   :Design for Selenium Automation Test
+ Expected TitleText is :Design for Selenium Automation Test
+ Title Is Matched
+---------------------------------
+ Actual.. TitleText is   :Copyright © 2005-2019 JavaByKiran.
+ Expected TitleText is :Copyright © 2005-2019 JavaByKiran.
+ Title Is Matched
+---------------------------------
+ Actual.. TitleText is   :JavaByKiran | Log in
+ Expected TitleText is :JavaByKiran | Log in
+ Title Is Matched
+---------------------------------
+ Actual.. TitleText is   :Java By Kiran
+ Expected TitleText is :Java By Kiran
+ Title Is Matched
+---------------------------------
+Actual List :[Schedule, Video Lactures All Topics, Selenium Interview Questions, Java Interview Questions, Courses, Placement]
+Expect List :[Schedule, Video Lactures All Topics, Selenium Interview Questions, Java Interview Questions, Courses, Placement]
+List of WebElement Found equals and Matched
+--------------------------------
+ Actual.. TitleText is   :Useful Links
+ Expected TitleText is :Useful Links
+ Title Is Matched
+---------------------------------
+ Actual.. TitleText is   :JavaByKiran | Useful Links
+ Expected TitleText is :JavaByKiran | Useful Links
+ Title Is Matched
+---------------------------------
+ Actual.. TitleText is   :file:///C:/SELENIUM/Offline%20Website/Offline%20Website/pages/examples/links.html
+ Expected TitleText is :file:///C:/SELENIUM/Offline%20Website/Offline%20Website/pages/examples/links.html
+ Title Is Matched
+---------------------------------
+Actual List :[Selenium, Java / J2EE, Python, Php]
+Expect List :[Selenium, Java / J2EE, Python, Php]
+List of WebElement Found equals and Matched
+--------------------------------
+Actual List :[9552343698, 7066885937, 8888558802, 8888809416, 8866888662]
+Expect List :[9552343698, 7066885937, 8888558802, 8888809416, 8866888662]
+List of WebElement Found equals and Matched
+--------------------------------
+Actual List :[Automation Testing, Software Development, Data Science, Web Development]
+Expect List :[Automation Testing, Software Development, Data Science, Web Development]
+List of WebElement Found equals and Matched
+--------------------------------
+ Actual.. TitleText is   :Courses Offered
+ Expected TitleText is :Courses Offered
+ Title Is Matched
+---------------------------------
+Actual List :[Kiran, Neelam, Seema, Varsha, Darshit]
+Expect List :[Kiran, Neelam, Seema, Varsha, Darshit]
+List of WebElement Found equals and Matched
+--------------------------------
+ Actual.. TitleText is   :Design for Selenium Automation Test
+ Expected TitleText is :Design for Selenium Automation Test
+ Title Is Matched
+---------------------------------
+ Actual.. TitleText is   :Copyright © 2005-2019 JavaByKiran.
+ Expected TitleText is :Copyright © 2005-2019 JavaByKiran.
+ Title Is Matched
+---------------------------------
+ All Tests run Successfully..
+ All Tests run Successfully..
+
+===============================================
+Suite
+Total tests run: 25, Passes: 25, Failures: 0, Skips: 0
+===============================================
+
